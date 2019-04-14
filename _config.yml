@@ -5,9 +5,9 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: Blog
+disqus: https-jackhsu1002-github-io-blog
 google_analytics: Blog
-title: Blog
+title: dbyll
 
 defaults:
   -

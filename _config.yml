@@ -5,22 +5,22 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
+disqus: Blog
 google_analytics: dbyll
-title: dbyll
+title: Blog
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: J Blog
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
+  name: JackHsu
+  email: bedrose0921@gmail.com.com
+  github: JackHsu1002
   twitter: dbtek
   pinterest: asd123
   linkedin: asd123

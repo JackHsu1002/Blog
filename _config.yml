@@ -35,6 +35,8 @@ tags_path: tags.html
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH: /Blog
+#BASE_PATH: 
+baseurl: /Blog
 
 plugins:
   - jekyll-paginate

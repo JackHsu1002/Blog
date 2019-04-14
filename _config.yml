@@ -6,13 +6,13 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: Blog
-google_analytics: dbyll
+google_analytics: Blog
 title: Blog
 
 defaults:
   -
     scope:
-      path: "" # empty string for all files
+      path: "/Blog" # empty string for all files
     values:
       title: J Blog
 

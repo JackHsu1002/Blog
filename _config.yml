@@ -7,24 +7,24 @@ highlighter: rouge
 markdown: kramdown
 disqus: https-jackhsu1002-github-io-blog
 google_analytics: Blog
-title: dbyll
+title: JackHsu
 
 defaults:
   -
     scope:
       path: "/Blog" # empty string for all files
     values:
-      title: J Blog
+      title: Blog J
 
 description: Stylish Jekyll Theme
 author:
   name: JackHsu
   email: bedrose0921@gmail.com.com
   github: JackHsu1002
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  twitter: JackHsu03328995
+  pinterest: bedrose0921
+  linkedin: jack-hsu-9560a6165
+  bio: Attitude is everything
   email_md5: d9dfa63175bff44a1e5c5eaef686f26d
 
 rss_path: feed.xml

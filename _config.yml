@@ -6,13 +6,13 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: https-jackhsu1002-github-io-blog
-google_analytics: Blog
+google_analytics: UA-138378036-1
 title: JackHsu
 
 defaults:
   -
     scope:
-      path: "/Blog" # empty string for all files
+      path: "" # empty string for all files
     values:
       title: Blog J
 

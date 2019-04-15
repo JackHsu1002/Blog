@@ -21,14 +21,16 @@
 	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
-
+	
 	<!-- Le fav and touch icons -->
-	<!-- Update these with your own images
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	-->
+	<!-- Update these with your own images -->
+	<link rel="shortcut icon" href="{{ site.BASE_PATH }}/eason_ico.ico">
+	<link rel="apple-touch-icon" href="{{ site.BASE_PATH }}/eason_ico.ico">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.BASE_PATH }}/eason_ico.ico">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.BASE_PATH }}/eason_ico.ico">
+	
+
+	
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
 </head>
@@ -80,11 +82,11 @@
 			<i class="fa fa-bars"></i>
 		</button>
 		<ul class="dropdown-menu" role="menu">
-			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
-			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
+			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>首頁</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>分類</a></li>
+			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>標籤</a></li>
 			<li class="divider"></li>
-			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>回到頁首</a></li>
 		</ul>
 	</div>
 

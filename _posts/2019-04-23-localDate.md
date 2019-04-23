@@ -18,7 +18,7 @@ Java8 的 LocalDate 與 LocalDateTime實在太好用了，他簡化了非常多�
 
 		LocalDate now = LocalDate.now();
 		LocalDate lastMonth = now.minusMonths(1);
-		※例如2019-01-01的上個月，會是2018-12-01。 參數代表幾個月前。	    
+		※2019-01-01的上個月，會是2018-12-01。 參數代表幾個月前。	    
 
 2. 取得當月最後一天的日期:  
 
@@ -26,4 +26,4 @@ Java8 的 LocalDate 與 LocalDateTime實在太好用了，他簡化了非常多�
 
 		LocalDate now = LocalDate.now();
 		LocalDate lastDayOfMonth = now.with(TemporalAdjusters.lastDayOfMonth());
-		※例如2019-02-01的當月最後一天，會是2019-02-28。 閏月的日期也有考量進去。	
+		※2019-02-01的當月最後一天，會是2019-02-28。 閏月的日期也有考量進去。	

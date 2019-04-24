@@ -7,7 +7,7 @@ fullview: true
 comments: true
 ---
 
-#### 常用LocalDate與LocalDateTime方法。
+#### 常用的LocalDate與LocalDateTime方法。
 
 Java8 的 LocalDate 與 LocalDateTime實在太好用了，他簡化了非常多轉換的問題，
 這邊整理一下常用的方法，不然相同問題老是Google真令人汗顏，另一方面手打下來也可以幫助記憶。

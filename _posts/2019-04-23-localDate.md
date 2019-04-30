@@ -27,3 +27,12 @@ Java8 的 LocalDate 與 LocalDateTime實在太好用了，他簡化了非常多�
 		LocalDate now = LocalDate.now();
 		LocalDate lastDayOfMonth = now.with(TemporalAdjusters.lastDayOfMonth());
 		※2019-02-01的當月最後一天，會是2019-02-28。 閏月的日期也有考量進去。	
+
+3. LocalDate to SQL Date:
+
+		import java.time.LocalDate;
+		import java.sql.Date;			
+
+		LocalDate to SQL Date常會使用 Date.valueOf(LocalDate.now());
+		但當LocalDate 是空值時會拋出NullPointException，如果要允許空值的存在可以用Optional進行改寫，
+		Optional.ofNullable(LocalDate.map(Date::valueOf).orElse(null);

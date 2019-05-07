@@ -16,7 +16,7 @@ defaults:
     values:
       title: Blog J
 
-description: Attitude is everything
+description: Do the right thing, Do the thing right!
 author:
   name: JackHsu
   email: bedrose0921@gmail.com.com
@@ -24,7 +24,7 @@ author:
   twitter: JackHsu03328995
   pinterest: bedrose0921
   linkedin: jack-hsu-9560a6165
-  bio: Attitude is everything
+  bio: Do the right thing, Do the thing right!
   email_md5: d9dfa63175bff44a1e5c5eaef686f26d
 
 rss_path: feed.xml
